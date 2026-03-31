@@ -12,6 +12,8 @@ jobs:
         with:
           node-version: '24'
       - uses: pnpm/action-setup@v5
+        with:
+          version: 10
       - name: Install dependencies
         run: pnpm install
       - name: Check style
