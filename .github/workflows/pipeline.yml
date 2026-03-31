@@ -18,3 +18,7 @@ jobs:
         run: pnpm install
       - name: Check style
         run: pnpm run eslint
+      - name: Run npm test
+        run: pnpm run test
+      - name: Run npm build
+        run: pnpm run build
